@@ -4,8 +4,10 @@ import Profile from "./Profile";
 export default function Card() {
   return (
     <div className="card">
-      <Profile />
-      <Mainbody />
+      <div className="card--main">
+        <Profile />
+        <Mainbody />
+      </div>
     </div>
   )
 }

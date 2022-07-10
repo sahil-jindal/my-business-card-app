@@ -4,7 +4,7 @@ import LinkedInLogo from "../images/linkedin.png";
 
 export default function Profile() {
   return (
-    <div className="card--main">
+    <div>
       <img src={ProfilePic} alt="profile" className="profile--image" />
       <h3 className="profile--info">Laura Smith</h3>
       <h5 className="profile--profession">Frontend Developer</h5>
