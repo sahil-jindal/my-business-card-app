@@ -1,5 +1,6 @@
 import Mainbody from "./Mainbody";
 import Profile from "./Profile";
+import Socials from "./Socials";
 
 export default function Card() {
   return (
@@ -7,6 +8,7 @@ export default function Card() {
       <div className="card--main">
         <Profile />
         <Mainbody />
+        <Socials />
       </div>
     </div>
   )

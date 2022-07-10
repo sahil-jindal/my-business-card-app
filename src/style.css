@@ -53,6 +53,33 @@ code {
 .card--main {
   margin: 44px 116px 44px 116px;
   background-color: #1A1B21;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.mainbody {
+  margin-top: 33px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.mainbody--title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+.mainbody--text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 5px;
+  color: #DCDCDC;
+  padding-bottom: 12px;
 }
 
 .profile--info {
@@ -132,4 +159,21 @@ code {
 .size {
   width: 16px;
   height: 16px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.column {
+  padding: 19px 12px 19px 12px;
+}
+
+.socials--size {
+  width: 25px;
+  height: 25px;
 }
