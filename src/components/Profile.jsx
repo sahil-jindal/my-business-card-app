@@ -1,14 +1,14 @@
-import ProfilePic from "../images/Rectangle 90.png";
+import ProfilePic from "../images/ProfilePic.JPG";
 import Mail from "../images/Mail.png";
 import LinkedInLogo from "../images/linkedin.png";
 
 export default function Profile() {
   return (
-    <div className="card--main">
+    <div>
       <img src={ProfilePic} alt="profile" className="profile--image" />
-      <h3 className="profile--info">Laura Smith</h3>
-      <h5 className="profile--profession">Frontend Developer</h5>
-      <h6 className="profile--website"> laurasmith.website </h6>
+      <h3 className="profile--info">Sahil Jindal</h3>
+      <h5 className="profile--profession">Software Developer</h5>
+      <h6 className="profile--website"> github.com/sahil-jindal </h6>
       <div className="contacts">
         <div className="button color--email">
           <img src={Mail} alt="button" className="size" />
