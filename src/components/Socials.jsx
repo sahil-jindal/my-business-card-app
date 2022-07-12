@@ -1,7 +1,7 @@
-import FacebookIcon from "../images/Facebook Icon.png";
-import GitHubIcon from "../images/GitHub Icon.png";
-import InstagramIcon from "../images/Instagram Icon.png";
-import TwitterIcon from "../images/Twitter Icon.png";
+import FacebookIcon from "../images/Facebook Icon.svg";
+import GitHubIcon from "../images/GitHub Icon.svg";
+import InstagramIcon from "../images/Instagram Icon.svg";
+import TwitterIcon from "../images/Twitter Icon.svg";
 
 export default function Socials() {
   return (

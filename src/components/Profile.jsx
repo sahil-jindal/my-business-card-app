@@ -1,4 +1,4 @@
-import ProfilePic from "../images/Rectangle 90.png";
+import ProfilePic from "../images/ProfilePic.JPG";
 import Mail from "../images/Mail.png";
 import LinkedInLogo from "../images/linkedin.png";
 
