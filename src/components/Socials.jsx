@@ -7,16 +7,16 @@ export default function Socials() {
   return (
     <div className="row">
       <div className="column">
-        <img src={TwitterIcon} alt="facebook" className="socials--size" />
+        <img src={TwitterIcon} alt="twitter" className="socials--size" />
       </div>
       <div className="column">
         <img src={FacebookIcon} alt="facebook" className="socials--size" />
       </div>
       <div className="column">
-        <img src={InstagramIcon} alt="facebook" className="socials--size" />
+        <img src={InstagramIcon} alt="instagram" className="socials--size" />
       </div>
       <div className="column">
-        <img src={GitHubIcon} alt="facebook" className="socials--size" />
+        <img src={GitHubIcon} alt="github" className="socials--size" />
       </div>
     </div>
   )
